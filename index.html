@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 2 - Recibir Texto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f7f7f7;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    #received-text {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #ff4500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Texto Recibido</h1>
+    <div id="received-text">
+      <p>No se ha recibido texto.</p>
+    </div>
+    <button onclick="goBack()">Volver al Proyecto 1</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
