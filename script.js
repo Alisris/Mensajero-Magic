@@ -16,10 +16,10 @@ function displayReceivedText() {
   }
 }
 
-// Función para volver al Proyecto 1
-function goBack() {
-  window.location.href = 'https://mi-sitio1.com/index.html';
-}
+ // Función para volver al Proyecto 1
+    function goBack() {
+      window.location.href = 'https://alisris.github.io/Mensajeria-Magic/index.html';
+    }
 
 // Llamar a la función que muestra el texto recibido al cargar la página
 displayReceivedText();
